@@ -1,5 +1,5 @@
 var Timeout = {
-	timer: 0,
+	timer: null,
 
 	constructor: function(fn, bind, value){
 		this.fn = fn;
@@ -7,6 +7,10 @@ var Timeout = {
 		if( arguments.length > 2 ){
 			this.set(value);
 		}
+	},
+
+	valueOf: function(){
+		return this.value;
 	},
 
 	create: function(){
