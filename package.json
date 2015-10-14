@@ -1,6 +1,7 @@
 {
   "name": "@dmail/timeout",
   "version": "0.0.1",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/dmail/timeout"
